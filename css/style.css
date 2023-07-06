@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*common css*/
+.body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.button{
+    display: inline-block;
+    padding: 19px 42px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+}
+.heading{
+    text-align: center;
+
+}
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.heading span{
+    font-size: 16px;
+    color: #898c91;
+    
+}
+.heading p{
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+/*common css*/
+/*nav bar start*/
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+    align-self: center;
+
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+    
+}
+
+/*nav bar end*/
+.container{
+    background-image: ;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.box{
+    background-color: rgb(204, 176, 17);
+    width: 24%;
+}
+/*Banner start*/
+#Banner{
+    background-color:rgba(0, 0, 0, 0.34);
+    background-image: url(../image/banner.jpg);
+    background-blend-mode: multiply;
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Banner .container,
+#Banner .row{
+    height: 100%;
+}
+
+.banner-cnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.banner-cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+.banner-cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner-cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner-cnt img{
+    margin: 50px 0;
+    display: block;
+    margin: 50px auto;
+}
+#about{
+    padding: 98px 0;
+}
+.about-card{
+    width: 25%;
+}
